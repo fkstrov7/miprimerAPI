@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Consulta del clima</h1>
+        <div class="input_group">
+            <label for="country">País</label>
+            <input type="text" name="country" placeholder="Ej: Costa Rica">
+        </div>
+        <div class="input_group">
+            <label for="city">Ciudad</label>
+            <input type="text" name="city" placeholder="Ej: San Jose">
+        </div>
+        <button id="getWeatherBtn">Obtener Clima</button>
+        <div id="weather-result">
+            <p><strong>Ciudad:</strong> <span id="display-city"></span></p>
+            <p><strong>Temperatura:</strong> <span id="temperatura"></span></p>
+            <p><strong>Descripción:</strong> <span id="description"></span></p>
+            <p><strong>Humedad:</strong> <span id="humidity"></span></p>
+        </div>
+        <p id="error-message"></p>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
